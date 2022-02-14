@@ -2,6 +2,7 @@ version: "3"
 services:
   oracle21c:
     image: store/oracle/database-enterprise:12.2.0.1
+    container_name: Oracle-DB
     ports:
       - "1521:1521"
       - "5000:5000"
