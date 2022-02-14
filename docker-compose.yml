@@ -1,0 +1,10 @@
+version: "3"
+services:
+  oracle21c:
+    image: store/oracle/database-enterprise:12.2.0.1
+    ports:
+      - "1521:1521"
+      - "5000:5000"
+    environment:
+      - ORACLE_PWD=Oradoc_db1
+      - ORACLE_SID=ORCLCDB
