@@ -1,5 +1,5 @@
-# Oracle DB 21c
-To use the Oracle DB 21c just run:
+# Oracle DB 12c
+To use the Oracle DB 12c just run:
 ```bash
 docker-compose up
 ```
